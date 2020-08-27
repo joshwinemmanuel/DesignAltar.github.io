@@ -39,6 +39,32 @@
     <link href="assets/css/style.css" rel="stylesheet">
 
 
+    <style type="text/css">
+        .portfolio1 {
+            display: none;
+        }
+        /* Smartphone Portrait and Landscape */
+
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            .portfolio1 {
+                display: inline;
+            }
+        }
+    </style>
+    <style type="text/css">
+        .portfolio {
+            display: inline;
+        }
+        /* Smartphone Portrait and Landscape */
+
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            .portfolio {
+                display: inline;
+            }
+        }
+    </style>
+
+
 </head>
 
   <body>
@@ -414,7 +440,7 @@
 
         </section><!-- End Portfolio Section -->
         <!--  Portfolio mobile Section -->
-        <section id="portfolio1" class="bg-light">
+        <section id="portfolio" class="portfolio1">
             <div class="container">
                 <div class="row">
                     <div class="section-title">
