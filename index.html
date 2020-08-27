@@ -43,23 +43,21 @@
         .portfolio1 {
             display: none;
         }
-        /* Smartphone Portrait and Landscape */
 
-        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            .portfolio1 {
-                display: inline;
-            }
-        }
-    </style>
-    <style type="text/css">
         .portfolio {
             display: inline;
         }
+
         /* Smartphone Portrait and Landscape */
 
-        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            .portfolio {
+        @media only screen and (max-device-width : 479px) {
+
+            .portfolio1 {
                 display: inline;
+            }
+
+            .portfolio {
+                display: none;
             }
         }
     </style>
@@ -444,6 +442,7 @@
             <div class="container">
                 <div class="row">
                     <div class="section-title">
+                        <br>
                         <h2>Works</h2>
                         <p>Our previous works</p>
                     </div>
